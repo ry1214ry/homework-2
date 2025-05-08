@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(5, 5, 78);
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.navbar {
+  box-shadow: 0px 0px 1px 2px rgb(179, 179, 192);
+}
+.navbar-brand {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+}
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  padding: 15px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  text-transform: capitalize;
+}
+.nav-link:hover {
+  color: rgb(233, 77, 142);
+}
+.login {
+  background-color: rgb(233, 77, 142);
+  border-radius: 50px;
+  padding: 8px 25px;
+}
+.login:hover {
+  background-color: white;
+  color: rgb(233, 77, 142);
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-banner {
+  width: 100%;
+}
+.hero-banner .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.group-des .title-des {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 20px;
+}
+.group-des .text-des {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: white;
+}
+.group-bnt-des a {
+  border: none;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  padding: 8px 20px;
+  box-shadow: 0 0 2px 2px gray;
+  margin: 0 20px;
+  margin-top: 60px;
+  display: inline-block;
+  border: none;
+}
+.btn-lear-more {
+  background-color: rgb(233, 77, 142);
+}
+
+.btn-lear-more:hover {
+  border: 2px solid white;
+}
+.btn-sigun:hover {
+  border: 2px solid white;
+}
+.infor-school {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  width: 500px;
+  text-align: center;
+}
+.infor-school h2 {
+  font-size: 35px;
+  color: rgb(233, 77, 142);
+}
+.infor-school p {
+  color: white;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.our-ant-course {
+  padding: 80px 0;
+}
+.our-ant-course h2 {
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.explor-course {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.explor-course .nav-link {
+  text-decoration: none;
+  border: 2px solid white;
+  font-size: 18px;
+  padding: 10px 25px;
+}
+.explor-course .nav-link:hover {
+  background-color: rgb(233, 77, 142);
+  color: white;
+}
+.group-img {
+  margin-top: 90px;
+}
+
+.group-img .container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.card-img {
+  width: 19%;
+  height: 250px;
+}
+.card-img img {
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+.card-img img:hover {
+  transform: scale(1.1);
+}
+.big {
+  width: 24%;
+  height: 300px;
+}
